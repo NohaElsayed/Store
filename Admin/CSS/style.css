@@ -1,0 +1,170 @@
+
+/*LogIn Page style*/
+
+/*Begin Login style*/
+.login-form{
+    width: 300px;
+    margin: 250px auto;
+    
+}
+.login-form h1{
+    color:white!important ;
+    font-size: 32px;
+    font-family: tahoma;
+   
+    
+}
+.login-form  p{
+    text-align: center;
+    font-size: 15px;
+    font-family: tahoma;
+    color: white;
+}
+.login-form .btn-primary{
+    width: 100%;
+    background-color:#282828;
+}
+
+/*End Login style*/
+/* End LogIn page*/
+
+
+/* Dashboard page style */
+
+/*Begin navbar style */
+.navbar{
+    background-color: black !important;
+    margin-bottom: 30px;
+ 
+}
+.navbar-brand{
+    font-size: 24px;
+}
+.mr-auto{
+    margin-left: 70% !important;
+   }
+#admin_name{
+    color: white;
+}
+/* End navbar style*/
+
+/* Notification of create user*/
+.notify{
+    position: fixed;
+    top: 70px;
+    right: -100%;
+    z-index: 1;
+    background-color: #fff3cd;
+    color: #282828;
+    width: 210px;
+    padding: 10px;
+    border:1px solid #fff3cd;
+    border-radius: 5px;
+}
+/* End notification*/
+
+/* Search bar*/
+#find{
+   width: 300px;
+    background-color:#dddddd;
+    border : 1.5px solid #dddddd;
+    position: fixed;
+    top:-100%;
+    right: 400px;
+    
+}
+#find:hover, #find:focus{
+background-color: white;
+border:1.5px solid #009688;
+}
+.result{
+    background-color: #d3d3d4;
+    padding:5px;
+    margin-bottom: 10px;
+    height: auto;
+    display: none;
+}
+/* End searchg bar*/
+
+/* Begin Side bar*/
+.col-8{
+    margin-bottom: 10px;
+}
+
+.badge-primary{
+    background-color: #282828;
+
+}
+ .active{
+    background-color: #282828 !important;
+    
+}
+/* End side bar*/
+
+/* Begin Card */
+.card-header{
+    color: white;
+    background-color:#282828 ;
+   
+}
+.card h3{
+    color: #282828;
+    font-size: 20px;
+}
+.users{
+    text-align: center;
+}
+.users a{
+    color: #282828;
+}
+.manage-users{
+    text-align: center;
+}    
+.manage-users a{
+    color: #282828
+}
+.freelancer{
+    text-align: center;
+}
+.freelancer a{
+    color: #282828;
+}
+/* End Card*/
+
+
+/*End Dashboard page */
+
+
+/* Create User Page*/
+
+
+/* End Create user page*/
+
+/* Freelancer page*/
+
+table td,th{
+    text-align: center;
+}
+/*End freelancer page */
+ 
+/* Create user style */
+.check-password{
+    color: red;
+    font-weight: bold;
+}
+#emailError,#passError{
+    color: red;
+    display: none;
+  
+}
+.free-table{
+    background-color:rgb(255, 255, 255);
+    padding:5px;
+    margin-top: 15px;
+    display: none;
+
+    
+}
+.free-table table{
+    border: #282828;
+}

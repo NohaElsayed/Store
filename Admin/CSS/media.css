@@ -1,0 +1,8 @@
+@media (max-width: 767.98px){
+    .card-body{
+        word-wrap: none;
+        font-size: 10px;
+        font-weight: normal;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+}

@@ -1,0 +1,402 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+
+}
+
+/**************************profile page style****************************/
+/* Begin Navbar style */
+.navbar{
+    background-color:black !important ;
+    color: white !important;
+    z-index: 999;
+  
+}
+.navbar-brand{
+    font-size: 24px;
+    color: white !important;
+}
+.mr-auto{
+    margin-left: 70%;
+}
+.nav-link{
+    color: white !important;
+}
+.nav-item a{
+    margin-left:5px;
+    margin-right: 5px;
+}
+.nav-item button{
+    border-color: white;
+    background-color: black;
+    color: white;
+}
+
+.nav-item button:hover{
+    background-color:#282828 ;
+    border-color: white;
+}
+
+
+
+
+/* End Navbar style */
+
+
+/* Begin Container style */
+
+.container-fluid{
+   
+position: relative;
+   background-color:white;
+   text-align: center;
+   /*
+   height: 20%;
+  padding-left: 0%;
+  padding-right: 0%;
+  */
+ height: 400px;
+  padding: 50px;
+    color:black;
+  
+ 
+}
+ 
+.info{
+  
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     display: none;
+}
+
+.container-fluid h2{
+    
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+
+/* End Container */
+
+
+/*Begin content style */
+.content{
+    text-align: center;
+   
+ 
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+
+}
+.content h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+   
+
+}
+
+/* End content style */
+
+/* Begin Portfolio style*/
+.content .portifilio{
+    padding: 20px;
+    background-color:#282828;
+    
+}
+.portifilio #feature{
+    color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+.card{
+    /*
+    width:350px;
+    height: 310px;
+    */
+    margin-left: auto;
+    margin-right: auto;
+    font-family: tahoma;
+    
+}
+.card-body{
+    background-color:#FBFCFC ;
+    font-weight: bold;
+}
+.card-body a{
+    color: #282828;
+}
+
+/* End portfolio style*/
+
+
+/* Begin About style */
+.about{
+  
+  padding-top: 10px;
+  padding-bottom: 10px;
+   background-color:#282828;
+   color: white;
+}
+
+.about p{
+    font-family:sans-serif;
+    font-size: large;
+    text-align: justify;
+    padding: 20px;
+    
+
+}
+
+
+.about .form-group label{
+    float: left;
+}
+.about img{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+}
+/*End About style*/
+
+
+
+/* Begin Contact style */
+.content .contact{
+    background-color: #282828 ;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+.contact form{
+    display: inline-block;
+    border: 1px solid white;
+    width: auto;
+    
+    border-radius: 5px;
+    padding: 20px ;
+}
+
+
+.contact form input,textarea{
+    margin-bottom: 13px;
+}
+.contact button {
+   
+    width: 50%;
+   background-color: #282828;
+   color: white;
+   margin-right: auto;
+   margin-left: auto;
+   
+}
+.contact button:hover{
+    background-color: black;
+}
+/* End contact style*/
+
+/*Begin footer style */
+.footer{
+
+    position: relative;
+    bottom:0%;
+    width: 100%;
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    z-index: 999;
+    }
+
+.footer span{
+    font-family: arial;
+
+}
+
+
+/*End footer style */
+
+/********************************************* Index Page style***********************************************/
+/* Freelancer Card*/
+.jumbotron {
+  
+    padding: 100px;
+    background-color: #282828 ;
+    color:white
+}
+.freelancer-card{
+   
+   position: relative;
+    margin-top: -32px;
+    background-color:#FF851B;
+    padding: 20px;
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.freelancer-card .card,.freelancer-card .card-body{
+    background-color: #282828 ;
+    color: white;
+}
+.freelancer-card .card img{
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    border:2px solid;
+    border-radius: 50%;
+    
+}
+
+.freelancer-card .card-text{
+    font-weight: normal;
+ 
+}
+.freelancer-card .card-title{
+    font-weight: bold;
+   
+}
+.freelancer-card .ellipsis{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.freelancer-card .card  .btn-primary{
+   
+    color:white  ;
+
+}
+/* End Freelancer card*/
+
+/* Container div style*/
+.section2 .container{
+ background-color: white;
+ padding: 40px;
+
+ 
+}
+.section2 .container .sideImage {
+    
+    float:right;
+    position: relative;
+    left: 200px;
+    
+}
+.data{
+    float: left;
+}
+.data h1{
+   font-size: 35px;
+    font-weight: normal;
+    white-space: nowrap;
+  
+}
+.data ul li{
+
+    list-style-type: none;
+    padding: 10px;
+    text-align: justify;
+ 
+}
+/*End container style*/
+
+/************************************SignUp page style****************************************************/
+/* Signup form*/
+
+.formsign {
+
+
+padding: 20px;
+margin: 20px auto;
+
+
+}
+
+
+.formsign form {
+    
+    position: relative;
+    left: 200px;
+    width: 300px;
+  
+  /*  margin: 0 auto;*/
+}
+.header{
+    font-size: 55px;
+}
+
+/************************************Sign in page style****************************************************/
+.main-head{
+    height: 150px;
+    background: #FFF;
+   
+}
+
+.sidenav {
+    height: 100%;
+    background-color: #282828;;
+    overflow-x: hidden;
+    padding-top: 20px;
+    z-index: -1;
+    ;
+}
+
+
+.main {
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+}
+
+@media screen and (max-width: 450px) {
+    .login-form{
+        margin-top: 10%;
+       
+    }
+
+   
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        margin-left: 40%; 
+    }
+
+    .sidenav{
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+
+    .login-form{
+        margin-top: 50%;
+      
+       
+    }
+
+  
+}
+
+
+.login-main-text{
+    margin-top: 20%;
+    padding: 60px;
+    color: #fff;
+}
+
+.login-main-text h2{
+    font-weight: 300;
+}
+
+.btn-black{
+    background-color: #000 !important;
+    color: #fff;
+}
